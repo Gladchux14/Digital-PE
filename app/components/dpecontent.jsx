@@ -5,17 +5,17 @@ const DPEContent = () => {
     {
       image: '/DPECONTENT/content1.png', 
       description: 'The DPE Guide to VPNs and Setting up One for Your Gadget.',
-      link: '/tutorial/guides/guide2fa', 
+      link: 'tutorial/guides/guidevpn', 
     },
     {
       image: '/DPECONTENT/content2.png',
       description: 'How to Set Up 2FA on Popular Platforms.',
-      link: '/tutorial/guides/guidevpn',
+      link: 'tutorial/guides/guide2fa',
     },
     {
       image: '/DPECONTENT/content3.png',
       description: 'Why securing your accounts is important.',
-      link: '/tutorial/guides/guidesecure',
+      link: 'tutorial/guides/guidesecure',
     },
   ];
 

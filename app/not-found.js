@@ -5,7 +5,7 @@ export default function NotFound() {
     <div className="min-h-screen flex flex-col justify-center items-center text-center bg-[#E1F2FD] p-10 rounded-lg">
       <h1 className="text-6xl text-[#1C1D32] font-bold">Not Found</h1>
       <p className="text-xl text-[#1C1D32] mt-4">
-        Could not find the requested resource
+        Could not find the requested resource.
       </p>
       <Link
         href="/"
