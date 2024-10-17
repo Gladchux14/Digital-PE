@@ -9,7 +9,7 @@ import DPEContent from "./components/dpecontent";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-[#E1F2FD]">
     
      <Hero />
      <DataHub/>
@@ -29,6 +29,14 @@ export default function Home() {
       </div>
       </section>
 
+       <section>
+
+       <div className=" text-center py-6">
+     <h1 className="text-3xl text-[#171939] font-bold mb-2">Library of Resources</h1>
+     <p className="text-lg mb-6">Check out curated tools, videos, and articles to protect you online.</p>
+     </div>
+       </section>
+        <landingpageTools/>
   
     </div>
   );

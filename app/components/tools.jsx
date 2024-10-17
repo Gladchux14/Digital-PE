@@ -57,10 +57,7 @@ const toolsData = [
 const AllTools = () => {
   return (
     <div className=" bg-[#E1F2FD] mx-auto p-6">
-      {/* <h1 className="text-3xl font-bold mb-2">All Tools</h1>
-      <p className="text-lg mb-6">Explore a variety of tools designed for developers.</p> */}
-
- 
+    
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {toolsData.map((tool, index) => (
           <div key={index} className="border border-[#9c9c9c] rounded-lg p-4 hover:shadow-lg transition-shadow">

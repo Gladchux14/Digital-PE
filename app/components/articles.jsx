@@ -102,7 +102,7 @@ const Articles = () => {
         {articlesData.map((article, index) => (
           <div
             key={index}
-            className="border rounded-lg overflow-hidden p-4 hover:shadow-lg transition-shadow space-y-4"
+            className="border flex rounded-lg overflow-hidden p-4 hover:shadow-lg transition-shadow space-y-4"
           >
             {/* Image Div */}
             <div className="w-full h-40 bg-gray-200">
@@ -134,3 +134,5 @@ const Articles = () => {
       </div>
     );
   };
+  
+  export default Articles;

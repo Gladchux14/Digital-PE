@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const Videos = () => {
+const FeaturedVideos = () => {
   const cardData = [
     {
       image: '/DPECONTENT/content2.png', 
@@ -44,35 +44,41 @@ const Videos = () => {
     },
     {
       image: '/DPECONTENT/content2.png',
-      description: 'They"re watching you 😱 Protect your online PRIVACY! ',
+      description: 'They"re watching you 😱 Protect your online PRIVACY!',
       link: 'https://www.youtube.com/watch?v=acWkkLaEsrU',
     },
     {
       image: '/DPECONTENT/content2.png',
-      description: 'Data Brokers: Last Week Tonight with John Oliver (HBO) .',
+      description: 'Data Brokers: Last Week Tonight with John Oliver (HBO).',
       link: 'https://www.youtube.com/watch?v=wqn3gR1WTcA',
     },
   ];
 
   return (
     <section className="pb-16 pt-4 flex items-center justify-center text-center">
+        <div className=" m-auto max-w-3xl">
+         <Link href="/resources" className="text-[#1C1D32] underline mt-8 flex items-end justify-end">
+         <p>View All</p>
+         </Link>
+        <DPEContent/>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 m-auto max-w-3xl pb-4">
-        {cardData.map((card, index) => (
+        {cardData.slice(0, 3).map((card, index) => (
           <div
             key={index}
             className="bg-white text-[#1C1D32] rounded-md shadow-md pb-4 transition-transform transform duration-75 hover:scale-105"
           >
             <img
               src={card.image}
-              alt={card.title}
-              className="  mb-4 rounded-t-md" 
+              alt={card.description}
+              className="mb-4 rounded-t-md" 
             />
-            <p className="text-[#1C1D32] text-[20px] font-bold  pb-3 px-3 md:text-[14px]">{card.description}</p>
+            <p className="text-[#1C1D32] text-[20px] font-bold pb-3 px-3 md:text-[14px]">{card.description}</p>
             <Link href={card.link}>
-              <p className="text-[#2196F3] flex items-center justify-center">
+              <a className="text-[#2196F3] flex items-center justify-center">
                 Read more
                 <span className="ml-2">&rarr;</span> 
-              </p>
+              </a>
             </Link>
           </div>
         ))}
@@ -81,4 +87,4 @@ const Videos = () => {
   );
 };
 
-export default Videos;
+export default FeaturedVideos;
