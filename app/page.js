@@ -1,11 +1,12 @@
 
 "use client"
-import Header from "./components/header";
-import Footer from "./components/footer";
 import Hero from "./components/hero";
 import DataHub from "./components/datahub";
 import Link from "next/link";
 import DPEContent from "./components/dpecontent";
+import LandingpageTools from "./components/landingTool"
+import LandingVideos from "./components/landingvideo"
+
 
 export default function Home() {
   return (
@@ -36,7 +37,9 @@ export default function Home() {
      <p className="text-lg mb-6">Check out curated tools, videos, and articles to protect you online.</p>
      </div>
        </section>
-        <landingpageTools/>
+        <LandingpageTools />
+
+        <LandingVideos />
   
     </div>
   );

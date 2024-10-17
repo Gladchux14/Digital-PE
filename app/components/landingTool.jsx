@@ -54,17 +54,17 @@ const toolsData = [
   },
 ];
 
-const landingpageTools = () => {
+const LandingpageTools = () => {
   return (
-    <div className="bg-[#E1F2FD] mx-auto p-6">
+    <div className="bg-[#E1F2FD] max-w-5xl mx-auto ">
 
-<div className=" m-auto max-w-3xl">
-         <Link href="/resources" className="text-[#1C1D32] underline mt-8 flex items-end justify-end">
+<div className=" m-auto  flex items-center justify-between">
+<p className=" font-bold text-xl">All Tools</p>
+         <Link href="/resources" className="text-[#1C1D32] underline mt-5  flex items-end justify-end">
          <p>View All</p>
          </Link>
-        <DPEContent/>
       </div>
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 pt-3 gap-6">
       {toolsData.slice(0, 3).map((tool, index) => (
         <div
           key={index}
@@ -84,4 +84,4 @@ const landingpageTools = () => {
   )
 };
 
-export default landingpageTools;
+export default LandingpageTools;

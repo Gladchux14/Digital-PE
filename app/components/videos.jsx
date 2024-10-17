@@ -65,7 +65,7 @@ const Videos = () => {
             <img
               src={card.image}
               alt={card.title}
-              className="  mb-4 rounded-t-md" 
+              className=" object-cover mb-4 rounded-t-md" 
             />
             <p className="text-[#1C1D32] text-[20px] font-bold  pb-3 px-3 md:text-[14px]">{card.description}</p>
             <Link href={card.link}>

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const FeaturedVideos = () => {
+const LandingVideos = () => {
   const cardData = [
     {
       image: '/DPECONTENT/content2.png', 
@@ -55,14 +55,14 @@ const FeaturedVideos = () => {
   ];
 
   return (
-    <section className="pb-16 pt-4 flex items-center justify-center text-center">
-        <div className=" m-auto max-w-3xl">
-         <Link href="/resources" className="text-[#1C1D32] underline mt-8 flex items-end justify-end">
+    <section className="pb-16 pt-8 max-w-5xl m-auto items-center justify-center text-center">
+        <div className=" flex justify-between items-center  pb-3 m-auto">
+          <p className=" font-bold text-xl">Videos</p>
+         <Link href="/resources" className="text-[#1C1D32]  underline mt-5 flex items-end justify-end">
          <p>View All</p>
          </Link>
-        <DPEContent/>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 m-auto max-w-3xl pb-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 m-auto  pb-4">
         {cardData.slice(0, 3).map((card, index) => (
           <div
             key={index}
@@ -71,14 +71,14 @@ const FeaturedVideos = () => {
             <img
               src={card.image}
               alt={card.description}
-              className="mb-4 rounded-t-md" 
+              className="mb-4 rounded-t-md object-cover" 
             />
             <p className="text-[#1C1D32] text-[20px] font-bold pb-3 px-3 md:text-[14px]">{card.description}</p>
             <Link href={card.link}>
-              <a className="text-[#2196F3] flex items-center justify-center">
+              <p className="text-[#2196F3] flex items-center justify-center">
                 Read more
                 <span className="ml-2">&rarr;</span> 
-              </a>
+              </p>
             </Link>
           </div>
         ))}
@@ -87,4 +87,4 @@ const FeaturedVideos = () => {
   );
 };
 
-export default FeaturedVideos;
+export default LandingVideos;
