@@ -52,7 +52,6 @@ const Resources = () => {
 
       <hr className="mb-8" />
 
-      {/* Render the content based on active tab */}
       {renderContent()}
     </div>
   );

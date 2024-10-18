@@ -1,4 +1,6 @@
-import FaSocial from "@/app/components/2fa-social";
+
+import  FaSocial  from "/app/components/fasocial.jsx";
+
 import Link from "next/link";
 
 const GuideVpn = () => {
@@ -138,7 +140,7 @@ const GuideVpn = () => {
           and widely used method.
         </h2>
 
-        <FaSocial />
+     <FaSocial />
 
         <div>
           <h2 className="text-lg font-bold mb-3">

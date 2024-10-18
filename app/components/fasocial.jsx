@@ -6,7 +6,6 @@ const FaSocial = () => {
     google: false,
     facebook: false,
     instagram: false,
-    // Add more sections if needed
   });
 
   const toggleOpen = (section) => {
@@ -20,7 +19,7 @@ const FaSocial = () => {
     <div>
       <section>
         <div className="max-w-5xl mx-auto">
-          {/* Toggle Header */}
+      
           <div
             className="flex items-center  cursor-pointer text-[#2196F3] "
             onClick={() => toggleOpen("google")}
@@ -46,10 +45,10 @@ const FaSocial = () => {
             </svg>
           </div>
 
-          {/* Sub-headings with lists */}
+         
           {openSections.google && (
             <div className="mt-6 space-y-8">
-              {/* Sub-heading 1 */}
+            
               <div>
                 <h3 className="text-lg font-semibold mb-3">
                   1.Sign in to your Google Account:
@@ -83,7 +82,7 @@ const FaSocial = () => {
                 </ul>
               </div>
 
-              {/* Sub-heading 2 */}
+
               <div>
                 <h3 className="text-lg font-semibold mb-3">2. Set Up 2FA:</h3>
                 <ul className="list-disc list-inside space-y-2">
@@ -99,7 +98,6 @@ const FaSocial = () => {
                 </ul>
               </div>
 
-              {/* Sub-heading 3 */}
               <div>
                 <h3 className="text-lg font-semibold mb-3">
                   3. Setting up the Authenticator App:
@@ -133,7 +131,7 @@ const FaSocial = () => {
                 </ul>
               </div>
 
-              {/* Sub-heading 4 */}
+         
               <div>
                 <h3 className="text-lg font-semibold mb-3">
                   4. Link Your Account:
@@ -178,7 +176,7 @@ const FaSocial = () => {
 
       <section>
         <div className="max-w-5xl mx-auto">
-          {/* Toggle Header */}
+     
           <div
             className="flex items-center cursor-pointer text-[#2196F3] "
             onClick={() => toggleOpen("facebook")}
@@ -202,7 +200,6 @@ const FaSocial = () => {
             </svg>
           </div>
 
-          {/* Sub-headings with lists */}
           {openSections.facebook && (
             <div className="mt-6 space-y-8">
               {/* Sub-heading 1 */}
@@ -291,7 +288,7 @@ const FaSocial = () => {
 
       <section>
         <div className="max-w-6xl mb-4 mx-auto">
-          {/* Toggle Header */}
+        
           <div
             className="flex items-center  cursor-pointer text-[#2196F3] "
             onClick={() => toggleOpen("instagram")}

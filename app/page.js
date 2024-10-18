@@ -6,6 +6,7 @@ import Link from "next/link";
 import DPEContent from "./components/dpecontent";
 import LandingpageTools from "./components/landingTool"
 import LandingVideos from "./components/landingvideo"
+import FaSocial from "./components/fasocial"
 
 
 export default function Home() {
@@ -40,6 +41,28 @@ export default function Home() {
         <LandingpageTools />
 
         <LandingVideos />
+   
+    <section className="bg-[#171939] py-8">
+      <div className="max-w-5xl mx-auto flex items-center justify-between px-4">
+       
+        <div>
+          <h1 className="text-2xl md:text-3xl max-w-96 mb-8 font-bold text-[#ffff]">
+            How To Choose CyberSecurity Solution
+          </h1>
+        </div>
+
+        <div className="  ">
+          <h3 className="text-xl max-w-80 font-semibold text-[#ffff] mb-5">
+          Having difficulties choosing the right cybersecurity tools for your Digital Privacy?
+          </h3>
+          <Link href="/resources">
+            <p className="bg-[#2196F3]  text-center px-4 py-2 rounded-md hover:bg-[#1e88e5]">
+            Check all resources
+            </p>
+          </Link>
+        </div>
+      </div>
+    </section>
   
     </div>
   );
