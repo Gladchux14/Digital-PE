@@ -4,22 +4,9 @@ const GuideVpn = () => {
   return (
     <div className="bg-[#E1F2FD] py-8">
       <div className="max-w-5xl mx-auto py-8 px-4 ">
-        <Link href="/tutorial">
-          <p className="hover:underline hover:text-[#2196F3] flex items-center mb-6">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-6 h-6 mr-2"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M15.75 19.5L8.25 12l7.5-7.5"
-              />
-            </svg>
+        <Link href="/tutorial" className="flex mb-6 gap-2">
+              <img src="/back.svg" href="back icon" />
+          <p className="hover:underline hover:text-[#2196F3]  ">
             Return to Contents
           </p>
         </Link>

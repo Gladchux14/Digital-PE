@@ -97,42 +97,42 @@ const articlesData = [
 // export default Articles;
 
 const Articles = () => {
-    return (
-      <div className="px-10 bg-[#E1F2FD] m-auto space-y-6"> 
-        {articlesData.map((article, index) => (
-          <div
-            key={index}
-            className="border flex rounded-lg overflow-hidden p-4 hover:shadow-lg transition-shadow space-y-4"
-          >
-            {/* Image Div */}
-            <div className="w-full h-40 bg-gray-200">
-              <img
-                src={article.imageUrl}
-                alt={article.title}
-                className=" h-55 object-cover"
-              />
-            </div>
-  
-            {/* Title and Description Div */}
-            <div className="flex flex-col justify-between h-full space-y-2">
-              <h2 className="text-xl font-bold">{article.title}</h2>
-  
-              {/* Description and Link Div */}
-              <div className="flex justify-between items-center">
-                <p className="text-base">{article.description}</p>
-  
-                <a
-                  href={article.link}
-                  className="flex items-center text-[#2196F3] hover:underline"
-                >
-                  Read More <FaArrowRight className="ml-2" />
-                </a>
-              </div>
+  return (
+    <div className="px-10 bg-[#E1F2FD] m-auto space-y-6">
+      {articlesData.map((article, index) => (
+        <div
+          key={index}
+          className="border flex rounded-lg overflow-hidden p-4 hover:shadow-lg transition-shadow space-y-4"
+        >
+          {/* Image Div */}
+          <div className="max-w-80">
+            <img
+              src={article.imageUrl}
+              alt={article.title}
+              // className="w-55 h-55 object-cover"
+            />
+          </div>
+
+          {/* Title and Description Div */}
+          <div className="flex flex-col items-start gap-14 justify-center max-w-md  space-y-2 ml-4">
+            <h2 className="text-xl font-bold text-start">{article.title}</h2>
+
+            {/* Description and Link Div */}
+            <div className="flex justify-between items-center">
+              <p className="text-base">{article.description}</p>
+
+              <a
+                href={article.link}
+                className="flex items-center text-[#2196F3] hover:underline"
+              >
+                Read More <FaArrowRight className="ml-2" />
+              </a>
             </div>
           </div>
-        ))}
-      </div>
-    );
-  };
-  
-  export default Articles;
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default Articles;

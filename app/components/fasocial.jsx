@@ -24,25 +24,17 @@ const FaSocial = () => {
             className="flex items-center  cursor-pointer text-[#2196F3] "
             onClick={() => toggleOpen("google")}
           >
-            <h2 className="text-lg font-bold">
+            <h2 className=" flex md:text-lg font-bold">
               How to Set Up 2FA on Google (Gmail)
-            </h2>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className={`w-6 h-6 transition-transform duration-300 ${
+              <img src="/arrow-down.svg" href="back icon" 
+              
+               className={`w-6 h-6 transition-transform duration-300 sm:mr-10  ${
                 openSections.google ? "rotate-180" : "rotate-0"
-              }`}
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M19.5 12H4.5m7.5 7.5L4.5 12l7.5-7.5"
+               }`}
               />
-            </svg>
+            </h2>
+            
+           
           </div>
 
          
@@ -182,22 +174,12 @@ const FaSocial = () => {
             onClick={() => toggleOpen("facebook")}
           >
             <h2 className="text-lg font-bold">How to Set Up 2FA on Facebook</h2>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className={`w-6 h-6 transition-transform duration-300 ${
-                openSections.facebook ? "rotate-180" : "rotate-0"
-              }`}
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M19.5 12H4.5m7.5 7.5L4.5 12l7.5-7.5"
-              />
-            </svg>
+            <img src="/arrow-down.svg" href="back icon" 
+          
+          className={`w-6 h-6 transition-transform duration-300 ${
+           openSections.facebook ? "rotate-180" : "rotate-0"
+          }`}
+         />
           </div>
 
           {openSections.facebook && (
@@ -296,22 +278,12 @@ const FaSocial = () => {
             <h2 className="text-lg font-bold">
               How to Set Up 2FA on Instagram
             </h2>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className={`w-6 h-6 transition-transform duration-300 ${
-                openSections.instagram ? "rotate-90" : "rotate-0"
-              }`}
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M19.5 12H4.5m7.5 7.5L4.5 12l7.5-7.5"
-              />
-            </svg>
+            <img src="/arrow-down.svg" href="back icon" 
+          
+          className={`w-6 h-6 transition-transform duration-300 ${
+           openSections.instagram ? "rotate-180" : "rotate-0"
+          }`}
+         />
           </div>
 
        

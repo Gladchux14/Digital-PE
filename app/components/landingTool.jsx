@@ -56,10 +56,10 @@ const toolsData = [
 
 const LandingpageTools = () => {
   return (
-    <div className="bg-[#E1F2FD] max-w-5xl mx-auto ">
+    <div className="bg-[#E1F2FD] max-w-5xl mx-auto px-4 ">
 
 <div className=" m-auto  flex items-center justify-between">
-<p className=" font-bold text-xl">All Tools</p>
+<p className=" font-bold text-xl">Tools</p>
          <Link href="/resources" className="text-[#1C1D32] underline mt-5  flex items-end justify-end">
          <p>View All</p>
          </Link>

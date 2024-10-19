@@ -15,10 +15,10 @@ export default function Home() {
     
      <Hero />
      <DataHub/>
-      <section className="bg-[#E1F2FD]">
+      <section className="bg-[#E1F2FD] p-6">
       <div className="text-[#1C1D32]" >
       <h2 className="text-4xl flex items-center justify-center font-bold mb-4 pt-12">DPE Contents</h2>
-        <p className="text-sm font-bold  flex items-center justify-center">
+        <p className=" text-[18px] md:text-md font-bold  flex items-center justify-center text-center">
         Search for answers to your digital privacy problems by checking out all of DPE's very own content.
         </p>
       </div>
@@ -31,9 +31,9 @@ export default function Home() {
       </div>
       </section>
 
-       <section>
+       <section  className=" p-6">
 
-       <div className=" text-center py-6">
+       <div className=" text-center ">
      <h1 className="text-3xl text-[#171939] font-bold mb-2">Library of Resources</h1>
      <p className="text-lg mb-6">Check out curated tools, videos, and articles to protect you online.</p>
      </div>
@@ -42,23 +42,23 @@ export default function Home() {
 
         <LandingVideos />
    
-    <section className="bg-[#171939] py-8">
-      <div className="max-w-5xl mx-auto flex items-center justify-between px-4">
+    <section className="bg-[#171939] py-10">
+      <div className="max-w-5xl mx-auto  flex flex-col md:flex-row items-center justify-between px-5">
        
         <div>
-          <h1 className="text-2xl md:text-3xl max-w-96 mb-8 font-bold text-[#ffff]">
+          <h1 className="text-2xl sm:ml-2 md:text-3xl md:max-w-72   mb-8 font-bold text-[#ffff]">
             How To Choose CyberSecurity Solution
           </h1>
         </div>
 
-        <div className="  ">
-          <h3 className="text-xl max-w-80 font-semibold text-[#ffff] mb-5">
+        <div className=" flex flex-col items-center justify-end md:text-end" >
+          <h3 className="text-xl max-w-80  text-[#9c9c9c] mb-5">
           Having difficulties choosing the right cybersecurity tools for your Digital Privacy?
           </h3>
           <Link href="/resources">
-            <p className="bg-[#2196F3]  text-center px-4 py-2 rounded-md hover:bg-[#1e88e5]">
+            <button className="bg-[#2196F3] mt-4  px-4 py-2 rounded-md hover:bg-[#2196F3]">
             Check all resources
-            </p>
+            </button>
           </Link>
         </div>
       </div>

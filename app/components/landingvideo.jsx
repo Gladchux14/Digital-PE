@@ -55,7 +55,7 @@ const LandingVideos = () => {
   ];
 
   return (
-    <section className="pb-16 pt-8 max-w-5xl m-auto items-center justify-center text-center">
+    <section className="pb-16 px-4 pt-8 max-w-5xl m-auto items-center justify-center text-center">
         <div className=" flex justify-between items-center  pb-3 m-auto">
           <p className=" font-bold text-xl">Videos</p>
          <Link href="/resources" className="text-[#1C1D32]  underline mt-5 flex items-end justify-end">

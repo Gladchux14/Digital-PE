@@ -55,29 +55,35 @@ const Videos = () => {
   ];
 
   return (
-    <section className="pb-16 pt-4 flex items-center justify-center text-center">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 m-auto max-w-3xl pb-4">
-        {cardData.map((card, index) => (
-          <div
-            key={index}
-            className="bg-white text-[#1C1D32] rounded-md shadow-md pb-4 transition-transform transform duration-75 hover:scale-105"
-          >
-            <img
-              src={card.image}
-              alt={card.title}
-              className=" object-cover mb-4 rounded-t-md" 
-            />
-            <p className="text-[#1C1D32] text-[20px] font-bold  pb-3 px-3 md:text-[14px]">{card.description}</p>
-            <Link href={card.link}>
-              <p className="text-[#2196F3] flex items-center justify-center">
-                Read more
-                <span className="ml-2">&rarr;</span> 
-              </p>
-            </Link>
-          </div>
-        ))}
+    <section className="pb-16 pt-4 flex items-center gap-6 justify-center text-center">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 m-auto max-w-7xl pb-4">
+    {cardData.map((card, index) => (
+      <div
+        key={index}
+        className="bg-white text-[#1C1D32] rounded-md shadow-md pb-4 mt-8 transition-transform transform duration-75 hover:scale-105"
+      >
+   
+        <div className="w-full overflow-hidden rounded-t-md">
+          <img
+            src={card.image}
+            alt={card.title}
+            className="w-full pb-4 h-48 object-cover" 
+          />
+        </div>
+        <p className="text-[#1C1D32] text-[20px] font-bold pb-3 mt-4 px-3 md:text-[16px] lg:text-[18px]">
+          {card.description}
+        </p>
+        <Link href={card.link}>
+          <p className="text-[#2196F3] flex items-center justify-center">
+            Read more
+            <span className="ml-2">&rarr;</span> 
+          </p>
+        </Link>
       </div>
-    </section>
+    ))}
+  </div>
+</section>
+
   );
 };
 

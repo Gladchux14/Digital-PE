@@ -32,7 +32,7 @@ const Header = () => {
           <ul className="flex space-x-6">
             <li>
               <Link href="/">
-                <p className="hover:text-[#2196F3]">Home</p>
+                <p className="hover:text-[#2196F3] ">Home</p>
               </Link>
             </li>
             <li>
@@ -46,7 +46,7 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link href="/community-forum">
+              <Link href="/community">
                 <p className="hover:text-[#2196F3]">Community Forum</p>
               </Link>
             </li>

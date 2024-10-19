@@ -56,11 +56,11 @@ const toolsData = [
 
 const AllTools = () => {
   return (
-    <div className=" bg-[#E1F2FD] mx-auto p-6">
+    <div className=" bg-[#E1F2FD] mx-auto  p-6">
     
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ">
         {toolsData.map((tool, index) => (
-          <div key={index} className="border border-[#9c9c9c] rounded-lg p-4 hover:shadow-lg transition-shadow">
+          <div key={index} className="border border-[#9c9c9c] rounded-lg p-4  mt-6 hover:shadow-lg transition-shadow">
             <h2 className="text-xl font-bold mb-2">{tool.title}</h2>
             <p className="text-base mb-4">{tool.description}</p>
             <Link href={tool.link}>

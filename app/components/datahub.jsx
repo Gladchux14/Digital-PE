@@ -5,7 +5,7 @@ const DataHub = () => {
         style={{ backgroundImage: "url('/PRIVACY HUB Background.png')" }} 
       >
         <h2 className="text-4xl font-bold mb-4">Privacy Protection Hub</h2>
-        <p className="text-lg mb-12">
+        <p className="text-lg p-4 mb-12">
           Explore informative articles, tools, and tutorials to protect your digital landscape!
         </p>
   
