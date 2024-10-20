@@ -6,7 +6,8 @@ import Link from "next/link";
 import DPEContent from "./components/dpecontent";
 import LandingpageTools from "./components/landingTool"
 import LandingVideos from "./components/landingvideo"
-import FaSocial from "./components/fasocial"
+import LandingArticle from "./components/landingarticle"
+
 
 
 export default function Home() {
@@ -41,6 +42,8 @@ export default function Home() {
         <LandingpageTools />
 
         <LandingVideos />
+
+        <LandingArticle />
    
     <section className="bg-[#171939] py-10">
       <div className="max-w-5xl mx-auto  flex flex-col md:flex-row items-center justify-between px-5">

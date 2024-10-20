@@ -3,52 +3,52 @@ import Link from 'next/link';
 const Videos = () => {
   const cardData = [
     {
-      image: '/DPECONTENT/content2.png', 
+      image: '/thumbnail/vid-1.png', 
       description: 'How Do Password Managers Work?',
       link: 'https://www.youtube.com/watch?v=DI72oBhMgWs', 
     },
     {
-      image: '/DPECONTENT/content2.png',
+      image: '/thumbnail/vid-2.png',
       description: 'By Cybersecurity Safe: Lock Your Digital Door.',
       link: 'https://www.youtube.com/watch?v=w_EKb2eOgkc',
     },
     {
-      image: '/DPECONTENT/content2.png',
+      image: '/thumbnail/vid-3.png',
       description: 'Data Privacy and Consent by Dr. Fred Cate.',
       link: 'https://www.youtube.com/watch?v=2iPDpV8ojHA',
     },
     {
-      image: '/DPECONTENT/content2.png',
+      image: '/thumbnail/vid-4.png',
       description: 'How data brokers sold my identity by Madhumita Murgia.',
       link: 'https://www.youtube.com/watch?v=AU66C6HePfg',
     },
     {
-      image: '/DPECONTENT/content2.png',
+      image: '/thumbnail/vid-5.png',
       description: 'There’s Virtually Nothing You Can Do To Protect Your Online Privacy.',
       link: 'https://www.youtube.com/watch?v=vc7_TKN0kfw',
     },
     {
-      image: '/DPECONTENT/content2.png',
+      image: '/thumbnail/vid-6.png',
       description: 'Your Human Firewall – by Rob May.',
       link: 'https://www.youtube.com/watch?v=BpdcVfq2dB8',
     },
     {
-      image: '/DPECONTENT/content2.png',
+      image: '/thumbnail/vid-7.png',
       description: 'Confessions of a cyber spy hunter by Eric Winsborrow.',
       link: 'https://www.youtube.com/watch?v=YiUN35Ikdfw',
     },
     {
-      image: '/DPECONTENT/content2.png',
+      image: '/thumbnail/vid-8.png',
       description: 'Why Do I Care So Much About Privacy? By Erin Murphy.',
       link: 'https://www.youtube.com/watch?v=0aXIXozAsOE',
     },
     {
-      image: '/DPECONTENT/content2.png',
+      image: '/thumbnail/vid-9.png',
       description: 'They"re watching you 😱 Protect your online PRIVACY! ',
       link: 'https://www.youtube.com/watch?v=acWkkLaEsrU',
     },
     {
-      image: '/DPECONTENT/content2.png',
+      image: '/thumbnail/vid-10.png',
       description: 'Data Brokers: Last Week Tonight with John Oliver (HBO) .',
       link: 'https://www.youtube.com/watch?v=wqn3gR1WTcA',
     },

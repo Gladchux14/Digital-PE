@@ -66,34 +66,35 @@ const Hero = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center px-4 gap-6 w-full max-w-lg mx-auto mt-14">
-  <div className="relative w-full sm:w-auto">
-    <input
-      type="text"
-      className=" sm:w-64 p-3 border border-[#2196F3] rounded-md text-[#2196F3] pr-10"
-      placeholder="Search for your solution"
-      value={searchQuery}
-      onChange={handleSearchChange}
-    />
-    <img
-      src="/search-normal.svg"
-      alt="search icon"
-      className=" sm:hidden w-4 h-4 absolute right-3 top-1/2 transform -translate-y-1/2 text-[#2196F3]"
-    />
+        <div className="relative w-full sm:w-auto">
+  <input
+    type="text"
+    className="w-full sm:w-64 p-3 border border-[#2196F3] rounded-md text-[#2196F3] pr-10"
+    placeholder="Search for your solution"
+    value={searchQuery}
+    onChange={handleSearchChange}
+  />
+  <img
+    src="/search-normal.svg"
+    alt="search icon"
+    className="w-4 h-4 absolute right-3 top-1/2 transform -translate-y-1/2"
+  />
 
-    {filteredSuggestions.length > 0 && (
-      <ul className="absolute z-10 w-full bg-white border text-[12px] border-gray-300 rounded-md text-black mt-1">
-        {filteredSuggestions.map((suggestion, index) => (
-          <li
-            key={index}
-            className="cursor-pointer hover:bg-gray-200 p-2"
-            onClick={() => handleSuggestionClick(suggestion)}
-          >
-            {suggestion}
-          </li>
-        ))}
-      </ul>
-    )}
-  </div>
+  {filteredSuggestions.length > 0 && (
+    <ul className="absolute z-10 w-full bg-white border text-[12px] border-gray-300 rounded-md text-black mt-1">
+      {filteredSuggestions.map((suggestion, index) => (
+        <li
+          key={index}
+          className="cursor-pointer hover:bg-gray-200 p-2"
+          onClick={() => handleSuggestionClick(suggestion)}
+        >
+          {suggestion}
+        </li>
+      ))}
+    </ul>
+  )}
+</div>
+
 
   <button
     onClick={handleSearch}

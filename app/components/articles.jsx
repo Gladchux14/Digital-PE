@@ -58,72 +58,38 @@ const articlesData = [
   
 ];
 
-// const Articles = () => {
-//   return (
-//     <div className=" p-10  bg-[#E1F2FD] gap-4 m-auto">
-//       {articlesData.map((article, index) => (
-//         <div
-//           key={index}
-//           className="border rounded-lg overflow-hidden p-4 gap-5 space-y-4 hover:shadow-lg transition-shadow"
-//         >
-     
-//           <div className=" bg-gray-200">
-//             <img
-//               src={article.imageUrl}
-//               alt={article.title}
-//               className=" "
-//             />
-//           </div>
-
-      
-//           <div className="flex flex-col justify-between h-full">
-//             <h2 className="text-xl font-bold mb-2">{article.title}</h2>
-
-        
-//             <div className="flex justify-between items-center">
-//               <p className="text-base">{article.description}</p>
-
-//               <a href={article.link} className="flex items-center text-[#2196F3] hover:underline">
-//                 Read More <FaArrowRight className="ml-2" />
-//               </a>
-//             </div>
-//           </div>
-//         </div>
-//       ))}
-//     </div>
-//   );
-// };
-
-// export default Articles;
 
 const Articles = () => {
   return (
-    <div className="px-10 bg-[#E1F2FD] m-auto space-y-6">
+    <div className="px-4 sm:px-6 md:px-8 lg:px-10 bg-[#E1F2FD] m-auto space-y-6">
       {articlesData.map((article, index) => (
         <div
           key={index}
-          className="border flex rounded-lg overflow-hidden p-4 hover:shadow-lg transition-shadow space-y-4"
+          className="border flex flex-col sm:flex-row rounded-lg gap-4 md:gap-6 lg:gap-3 overflow-hidden p-4 hover:shadow-lg transition-shadow space-y-4 lg:space-y-0"
         >
-          {/* Image Div */}
-          <div className="max-w-80">
+          {/* Image */}
+          
+          <div className="flex-shrink-0 w-full sm:w-1/3">
             <img
               src={article.imageUrl}
               alt={article.title}
-              // className="w-55 h-55 object-cover"
+              className="w-full object-cover"
             />
           </div>
 
           {/* Title and Description Div */}
-          <div className="flex flex-col items-start gap-14 justify-center max-w-md  space-y-2 ml-4">
-            <h2 className="text-xl font-bold text-start">{article.title}</h2>
+          <div className="flex flex-col items-start justify-center space-y-2 ml-0 sm:ml-4">
+            <h2 className="text-lg sm:text-2xl md:text-3xl lg:text-3xl max-w-md font-semibold text-start mb-2 sm:mb-4 lg:mb-[26px]">
+              {article.title}
+            </h2>
 
             {/* Description and Link Div */}
-            <div className="flex justify-between items-center">
-              <p className="text-base">{article.description}</p>
+            <div className="flex flex-col sm:flex-row md:flex-row items-start sm:items-center gap-4 sm:gap-36">
+              <p className="text-md lg:text-xl max-w-md">{article.description}</p>
 
               <a
                 href={article.link}
-                className="flex items-center text-[#2196F3] hover:underline"
+                className="flex items-center text-sm sm:text-lg md:text-md  lg:text-xl text-[#2196F3] hover:underline"
               >
                 Read More <FaArrowRight className="ml-2" />
               </a>
