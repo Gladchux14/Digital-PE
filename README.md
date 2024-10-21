@@ -38,15 +38,20 @@ To run the project locally for development, use the following command:
 ****This will start a local development server on http://localhost:3000, where you can view and work on the project.
 
 Features:
+
 ~ Next.js framework for server-side rendering and static site generation
 ~ Tailwind CSS for responsive and modern styling
 ~ Community-driven forum (Phase 2) where users can ask questions and share knowledge
 ~ Focus on digital privacy education and best practices.
 
 Project Phases:
+
 Phase 1: Development of static and educational pages to provide users with information about online security and privacy.
+
 Phase 2: Introduction of the community forum, allowing users to engage in discussions and share privacy-related knowledge.
+
 Phase 3: Advanced features to be determined based on community feedback and evolving needs.
+
 Contributing
 
 We welcome contributions to improve the project. If you want to contribute and create impact!
