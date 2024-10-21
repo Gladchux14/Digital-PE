@@ -179,7 +179,7 @@ const GuideVpn = () => {
             <ul className="list-disc list-inside">
               <li>
                 When setting up 2FA, most services provide backup codes in case
-                you lose your phone or can't access the authenticator app. Print
+                you lose your phone or can&apos;t access the authenticator app. Print
                 these codes or store them in a safe place.
               </li>
             </ul>

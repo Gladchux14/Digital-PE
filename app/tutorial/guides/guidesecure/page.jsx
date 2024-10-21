@@ -5,7 +5,7 @@ const GuideVpn = () => {
     <div className="bg-[#E1F2FD] py-8">
       <div className="max-w-5xl mx-auto py-8 px-4 ">
         <Link href="/tutorial" className="flex mb-6 gap-2">
-              <img src="/back.svg" href="back icon" />
+              <img src="/back.svg" href="back icon" alt="back icon" />
           <p className="hover:underline hover:text-[#2196F3]  ">
             Return to Contents
           </p>
@@ -129,16 +129,16 @@ const GuideVpn = () => {
           <p className="my-5 font-bold">How to Recognize a Phishing Attempt:</p>
           <ul className="list-disc list-inside ml-2">
             <li className="mb-5">
-            The email looks urgent or threatening (e.g., "Update your password now or lose access").
+            The email looks urgent or threatening (e.g., &quot;Update your password now or lose access&quot;).
             </li>
             <li className="mb-5">
-            The sender’s address is strange or slightly off, like  <span className="text-[#2196F3]">admin@amazn-support.com.</span>
+            The sender&quot;s address is strange or slightly off, like  <span className="text-[#2196F3]">admin@amazn-support.com.</span>
             </li>
             <li className="mb-5">
             The message contains bad grammar or spelling errors.
             </li>
             <li className="mb-5">
-            There’s a link or attachment that doesn’t seem right
+            There&quot;s a link or attachment that doesn&quot;t seem right
             </li>
           </ul>
 
@@ -146,16 +146,16 @@ const GuideVpn = () => {
           <p className="my-5 font-bold">What to Do if You Get a Suspicious Link:</p>
           <ul className="list-disc list-inside ml-2">
             <li className="mb-5">
-            Don’t click on it. Instead, go directly to the official website by typing the URL yourself.
+            Don&quot;t click on it. Instead, go directly to the official website by typing the URL yourself.
             </li>
             <li className="mb-5">
             Hover over the link with your mouse to see where it leads.
             </li>
             <li className="mb-5">
-            Make sure the website you’re logging into has  <span className="text-[#2196F3]"> "https://".</span> at the beginning of the URL (this indicates it’s using encryption).
+            Make sure the website you&quot;re logging into has  <span className="text-[#2196F3]"> &quot;https://&quot;.</span> at the beginning of the URL (this indicates it&quot;s using encryption).
             </li>
             <li className="mb-5">
-            There’s a link or attachment that doesn’t seem right
+            There&quot;s a link or attachment that doesn&quot;t seem right
             </li>
           </ul>
 
@@ -174,7 +174,7 @@ const GuideVpn = () => {
             <p className="my-5 ">Check for Breaches with <span className="font-bold">HaveIBeenPwned</span>.</p>
         
             <p>
-            It’s easy to ignore breaches—until your data gets exposed. Tools like <span className="font-bold">HaveIBeenPwned</span>. allow you to check if your email or accounts have been compromised.
+            It&quot;s easy to ignore breaches—until your data gets exposed. Tools like <span className="font-bold">HaveIBeenPwned</span>. allow you to check if your email or accounts have been compromised.
             </p>
 
             <div className="mb-6">
@@ -211,8 +211,8 @@ const GuideVpn = () => {
           </div>
           <ul className="list-disc list-inside gap-4">
             <li>Phone numbers and backup emails associated with your accounts.</li>
-            <li>Security questions—avoid easy ones like “What’s your favorite color?” and opt for something harder to guess.</li>
-            <li>Store security question answers in your password manager if they’re not something you’ll easily remember.</li>
+            <li>Security questions—avoid easy ones like “What&quot;s your favorite color?” and opt for something harder to guess.</li>
+            <li>Store security question answers in your password manager if they&quot;re not something you&quot;ll easily remember.</li>
           </ul>
         </div>
 
@@ -223,8 +223,8 @@ const GuideVpn = () => {
              Conclusion
             </p>
            
-            <p className="my-4 font-bold">Keeping your accounts secure isn’t about being paranoid—it’s about being prepared.
- Here’s a quick summary:
+            <p className="my-4 font-bold">Keeping your accounts secure isn&quot;t about being paranoid—it&quot;s about being prepared.
+ Here&quot;s a quick summary:
  </p>
           </div>
           <ul className="list-disc list-inside gap-4">

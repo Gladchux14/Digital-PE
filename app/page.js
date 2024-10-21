@@ -20,7 +20,7 @@ export default function Home() {
       <div className="text-[#1C1D32]" >
       <h2 className="text-4xl flex items-center justify-center font-bold mb-4 pt-12">DPE Contents</h2>
         <p className=" text-[18px] md:text-md font-bold  flex items-center justify-center text-center">
-        Search for answers to your digital privacy problems by checking out all of DPE's very own content.
+        Search for answers to your digital privacy problems by checking out all of DPE&apos;s very own content.
         </p>
       </div>
 

@@ -80,12 +80,12 @@ const FaSocial = () => {
                 <ul className="list-disc list-inside space-y-2">
                   <li>
                     Google will ask you to enter your phone number. Choose{" "}
-                    <span className=" font-bold">"Text message"</span> or{" "}
-                    <span className=" font-bold"> "Phone call"</span> spa to
+                    <span className=" font-bold">&quot;Text message&quot;</span> or{" "}
+                    <span className=" font-bold"> &quot;Phone call&quot;</span> spa to
                     receive the code.
                   </li>
                   <li>
-                    Once you’ve entered the code sent to your phone, click Next.
+                    Once you&quot;ve entered the code sent to your phone, click Next.
                   </li>
                 </ul>
               </div>
@@ -97,7 +97,7 @@ const FaSocial = () => {
                 <ul className="list-disc list-inside space-y-2">
                   <li>
                     After setting up step 2, click the{" "}
-                    <span className=" font-bold">‘Authenticator’</span> option
+                    <span className=" font-bold">&quot;Authenticator&quot;</span> option
                     again
                   </li>
                   <li>
@@ -175,7 +175,7 @@ const FaSocial = () => {
           >
             <h2 className="text-lg font-bold">How to Set Up 2FA on Facebook</h2>
             <img src="/arrow-down.svg" href="back icon" 
-          
+            alt="arrow svg"
           className={`w-6 h-6 transition-transform duration-300 ${
            openSections.facebook ? "rotate-180" : "rotate-0"
           }`}
@@ -184,7 +184,7 @@ const FaSocial = () => {
 
           {openSections.facebook && (
             <div className="mt-6 space-y-8">
-              {/* Sub-heading 1 */}
+            
               <div>
                 <h3 className="text-lg font-semibold mb-3">
                   1.Access Security Settings:
@@ -201,7 +201,7 @@ const FaSocial = () => {
                 </ul>
               </div>
 
-              {/* Sub-heading 2 */}
+          
               <div>
                 <h3 className="text-lg font-semibold mb-3">2. Set Up 2FA:</h3>
                 <ul className="list-disc list-inside space-y-2">
@@ -212,7 +212,7 @@ const FaSocial = () => {
                 </ul>
               </div>
 
-              {/* Sub-heading 3 */}
+           
               <div>
                 <h3 className="text-lg font-semibold mb-3">
                   3. Download the Authenticator App:
@@ -221,13 +221,13 @@ const FaSocial = () => {
                   <li>
                     Download Google{" "}
                     <span className=" font-bold">Authenticator</span> or{" "}
-                    <span className=" font-bold">Authy</span> if you haven’t
+                    <span className=" font-bold">Authy</span> if you haven&quot;t
                     already.
                   </li>
                 </ul>
               </div>
 
-              {/* Sub-heading 4 */}
+        
               <div>
                 <h3 className="text-lg font-semibold mb-3">
                   4. Link Your Facebook Account:
@@ -258,7 +258,7 @@ const FaSocial = () => {
                 <ul className="list-disc list-inside space-y-2">
                   <li>
                     Once set up, every time you log into your Google account,
-                    you’ll be required to enter a code from the authenticator
+                    you&quot;ll be required to enter a code from the authenticator
                     app in addition to your password.
                   </li>
                 </ul>
@@ -403,7 +403,7 @@ const FaSocial = () => {
                 </h3>
                 <ul className="list-disc list-inside space-y-2">
                   <li>
-                    After successfully setting up 2FA, you'll see a confirmation
+                    After successfully setting up 2FA, you&quot;ll see a confirmation
                     message.
                   </li>
                   <li>

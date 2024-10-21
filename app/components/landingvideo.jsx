@@ -24,12 +24,12 @@ const LandingVideos = () => {
     },
     {
       image: '/thumbnail/vid-5.png',
-      description: 'There’s Virtually Nothing You Can Do To Protect Your Online Privacy.',
+      description: 'There&quots Virtually Nothing You Can Do To Protect Your Online Privacy.',
       link: 'https://www.youtube.com/watch?v=vc7_TKN0kfw',
     },
     {
       image: '/thumbnail/vid-6.png',
-      description: 'Your Human Firewall – by Rob May.',
+      description: 'Your Human Firewall by Rob May.',
       link: 'https://www.youtube.com/watch?v=BpdcVfq2dB8',
     },
     {
