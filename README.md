@@ -15,6 +15,8 @@ PRD:https://docs.google.com/document/d/156XhEXCu03gZNh-2gd9xb8swrXkqni0N/edit?us
 
 Tool Demo: https://www.loom.com/share/ad90c0d68daf4f26817e65297782ffcb?sid=c262240a-6d7f-4466-8727-98dbce5ce501
 
+live link: https://digitalprivacyedu.netlify.app
+
 
 
 Table of Contents:
