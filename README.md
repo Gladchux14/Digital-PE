@@ -2,10 +2,14 @@ DIGITAL PRIVACY EDUCATION (DPE)
 
 Digital Privacy Education is an open-source project focused on providing enlightenment and information on the best practices for staying secure online. The project is built using Next.js and Tailwind CSS, with a primary goal of promoting digital privacy. The project consists of multiple phases, with the second phase introducing a community forum where users and experts can discuss and share insights about online security.
 
+
+
 figma:https://www.figma.com/file/xT3vTl7J1rUOGdEn0sUAFy?node-id=0:1&locale=en&type=design
 project overview:https://docs.google.com/document/d/1zYIrInrfQ5LCGrnmZCrZSRRKEHe_wsRtr4pWw1NEvKM/edit?usp=drivesdk
 PRD:https://docs.google.com/document/d/156XhEXCu03gZNh-2gd9xb8swrXkqni0N/edit?usp=drivesdk&ouid=115221145025454397775&rtpof=true&sd=true
 Tool Demo: https://www.loom.com/share/ad90c0d68daf4f26817e65297782ffcb?sid=c262240a-6d7f-4466-8727-98dbce5ce501
+
+
 
 Table of Contents:
 - Introduction

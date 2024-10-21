@@ -1,9 +1,9 @@
 "use client"
 
 import { useState } from "react"; 
-import Videos from "../components/Videos"; 
-import Articles from "../components/Articles"; 
+import Videos from "../components/videos";  
 import AllTools from "../components/tools";
+import Articles from "../components/articles.jsx";
 
 const Resources = () => {
   const [activeTab, setActiveTab] = useState("tools"); 
