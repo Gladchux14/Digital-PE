@@ -18,7 +18,7 @@ const Footer = () => {
             <FaCopyright className="mr-1" /> {new Date().getFullYear()} Digital Privacy Education Platform. All rights reserved.
           </p>
        
-          <div className="flex flex-col md:flex-row justify-center md:justify-start items-center text-sm space-y-2 md:space-y-0 md:space-x-6">
+          {/* <div className="flex flex-col md:flex-row justify-center md:justify-start items-center text-sm space-y-2 md:space-y-0 md:space-x-6">
             <Link href="/privacy-policy">
               <p className="hover:text-gray-300">Privacy Policy</p>
             </Link>
@@ -26,7 +26,7 @@ const Footer = () => {
             <Link href="/terms-of-service">
               <p className="hover:text-gray-300">Terms of Service</p>
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
