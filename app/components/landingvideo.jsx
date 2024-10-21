@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 const LandingVideos = () => {
@@ -68,9 +69,10 @@ const LandingVideos = () => {
             key={index}
             className="bg-white mx-4 text-[#1C1D32] rounded-md shadow-md pb-6  transition-transform transform duration-75 hover:scale-105"
           >
-            <img
+            <Image
               src={card.image}
               alt={card.description}
+              width={200} height={200}
               className=" w-full mb-4 rounded-t-md object-cover" 
             />
             <p className="text-[#1C1D32] text-[20px] font-bold pb-3 px-3 md:text-[14px]">{card.description}</p>

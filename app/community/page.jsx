@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 
@@ -5,9 +6,11 @@ export default function Community() {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center text-center bg-[#E1F2FD] p-10 rounded-lg">
      
-      <img
-                src="soon.png"
+     <Image 
+                src="/soon.png"
                 alt="coming soon image"
+                height={64}
+                width={230}
                 className="flex items-center h-64 justify-center py-4"
               />
       <h1 className="text-3xl text-[#1C1D32] font-bold">Coming Soon</h1>
@@ -23,7 +26,7 @@ export default function Community() {
           Notify Me
         </button> 
 
-        <img src="./Send.svg" href="send icon" />
+        <Image src="./Send.svg" alt="send icon" href="send icon" width={30} height={30} />
       </Link>
       
     </div>

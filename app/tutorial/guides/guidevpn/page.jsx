@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const GuideVpn = () => {
@@ -5,7 +6,7 @@ const GuideVpn = () => {
     <div className="bg-[#E1F2FD] py-8">
       <div className="max-w-5xl mx-auto py-8 px-4 ">
       <Link href="/tutorial" className="flex mb-6 gap-2">
-              <img src="/back.svg" href="back icon" alt="back icon" />
+              <Image src="/back.svg" href="back icon" alt="back icon" width={20} height={20} />
           <p className="hover:underline hover:text-[#2196F3]  ">
             Return to Contents
           </p>
@@ -39,7 +40,7 @@ const GuideVpn = () => {
               your IP address and securing data transmissions.
             </li>
             <li className="mb-5">
-              <span className="font-bold">Why It’s Important:</span> It helps
+              <span className="font-bold">Why It&apos;s Important:</span> It helps
               users maintain anonymity online, avoid data interception, and
               access restricted content.
             </li>
@@ -70,7 +71,7 @@ const GuideVpn = () => {
 
           <p>
             (1) <span className="font-bold">No-Log Policy:</span> Ensure the VPN
-            provider doesn’t store your data or browsing history.
+            provider doesn&apos;t store your data or browsing history.
           </p>
           <p>
             (2) <span className="font-bold">Security Protocols:</span> Look for
@@ -87,7 +88,7 @@ const GuideVpn = () => {
         <h2 className="my-5 text-[#2196F3]">How to Set Up a VPN using ProtonVPN</h2>
 
         <p>
-          We’ll use ProtonVPN for this guide, which offers a user-friendly
+          We&apos;ll use ProtonVPN for this guide, which offers a user-friendly
           interface and strong privacy features.
         </p>
 
@@ -98,15 +99,16 @@ const GuideVpn = () => {
             <li>
               Visit{" "}
               <a href="https://protonvpn.com" className="underline">
-                ProtonVPN’s website
+                ProtonVPN&apos;s website
               </a>{" "}
-              and click the ‘Get ProtonVPN Now’ button.
+              and click the &apos;Get ProtonVPN Now&apos; button.
             </li>
 
             <div className="mb-6">
-              <img
+              <Image
                 src="/guide/image 2.png"
                 alt="vpn-guide-img"
+                width={350} height={200}
                 className="max-w-72 md:max-w-md m-auto my-5 rounded-md"
               />
             </div>
@@ -116,9 +118,10 @@ const GuideVpn = () => {
             </li>
 
             <div className="mb-6">
-              <img
+              <Image
                 src="/guide/image 3.png"
                 alt="vpn-guide-img"
+                width={350} height={200}
                 className="max-w-72 md:max-w-md m-auto my-5 rounded-md"
               />
             </div>
@@ -128,9 +131,10 @@ const GuideVpn = () => {
             </li>
 
             <div className="mb-6">
-              <img
+              <Image
                 src="/guide/image 4.png"
                 alt="vpn-guide-img"
+                width={350} height={550}
                 className="max-w-72 md:max-w-md m-auto my-5 rounded-md"
               />
             </div>
@@ -146,9 +150,10 @@ const GuideVpn = () => {
             </li>
 
             <div className="mb-6 mt-4">
-              <img
+              <Image
                 src="/guide/image 5.png"
                 alt="vpn-guide-img"
+                width={350} height={550}
                 className="max-w-72 md:max-w-md m-auto rounded-md"
               />
             </div>
@@ -159,9 +164,10 @@ const GuideVpn = () => {
             </li>
 
             <div className="mb-6 mt-4">
-              <img
+              <Image
                 src="/guide/image 6.png"
                 alt="vpn-guide-img"
+                width={350} height={550}
                 className="max-w-60 md:max-w-md m-auto rounded-md"
               />
             </div>
@@ -177,9 +183,10 @@ const GuideVpn = () => {
           </li>
 
             <div className="mb-6 mt-4">
-              <img
+              <Image
                 src="/guide/image 7.png"
                 alt="vpn-guide-img"
+                width={350} height={450}
                 className="max-w-72 md:max-w-md m-auto rounded-md"
               />
             </div>
@@ -196,9 +203,10 @@ const GuideVpn = () => {
           </ul>
 
           <div className="mb-6">
-            <img
+            <Image
               src="/guide/image 8.png"
               alt="vpn-guide-img"
+              width={450} height={350}
               className="max-w-72 md:max-w-md m-auto pb-4 rounded-md"
             />
           </div>
@@ -210,20 +218,21 @@ const GuideVpn = () => {
 
            <li>
             Open the ProtonVPN app after downloading the app based on your
-            gadget of choice. 
+            gadget of choice.
          </li>
            <li >
-             Enter your credentials (email address and password) to log in. 
+             Enter your credentials (email address and password) to log in.
            </li>
            <li >
              On the home page, you will see a Connect button. Please click that,
-            and you will be taken to your device. 
+            and you will be taken to your device.
            </li>
 
             <div className="my-4">
-              <img
+              <Image
                 src="/guide/image 9.png"
                 alt="vpn-guide-img"
+                width={250} height={250}
                 className=" max-w-md m-auto rounded-md"
               />
             </div>
@@ -231,9 +240,10 @@ const GuideVpn = () => {
             <li>Once connected, your IP address will be hidden, and your data encrypted.</li>
 
             <div className="my-4">
-              <img
+              <Image
                 src="/guide/image 10.png"
                 alt="vpn-guide-img"
+                width={300} height={350}
                 className=" max-w-md m-auto rounded-md"
               />
             </div>

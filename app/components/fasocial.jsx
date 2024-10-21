@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useState } from "react";
 
 const FaSocial = () => {
@@ -26,7 +27,7 @@ const FaSocial = () => {
           >
             <h2 className=" flex md:text-lg font-bold">
               How to Set Up 2FA on Google (Gmail)
-              <img src="/arrow-down.svg" href="back icon" 
+             <Image  src="/arrow-down.svg" href="back icon" alt="arrow icon" width={100} height={100}
               
                className={`w-6 h-6 transition-transform duration-300 sm:mr-10  ${
                 openSections.google ? "rotate-180" : "rotate-0"
@@ -51,9 +52,11 @@ const FaSocial = () => {
                   <li>Go to the security option.</li>
 
                   <div className="mb-6">
-                    <img
+                    <Image
                       src="/guide/image 11.png"
                       alt="vpn-guide-img"
+                      width={250}
+                      height={250}
                       className="max-w-72 md:max-w-md m-auto my-5 rounded-md"
                     />
                   </div>
@@ -174,7 +177,7 @@ const FaSocial = () => {
             onClick={() => toggleOpen("facebook")}
           >
             <h2 className="text-lg font-bold">How to Set Up 2FA on Facebook</h2>
-            <img src="/arrow-down.svg" href="back icon" 
+            <Image src="/arrow-down.svg" href="back icon" width={100} height={100}
             alt="arrow svg"
           className={`w-6 h-6 transition-transform duration-300 ${
            openSections.facebook ? "rotate-180" : "rotate-0"
@@ -278,7 +281,7 @@ const FaSocial = () => {
             <h2 className="text-lg font-bold">
               How to Set Up 2FA on Instagram
             </h2>
-            <img src="/arrow-down.svg" href="back icon" 
+            <Image src="/arrow-down.svg" href="back icon" alt="arrow icon" width={100} height={100} 
           
           className={`w-6 h-6 transition-transform duration-300 ${
            openSections.instagram ? "rotate-180" : "rotate-0"

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
 
 const articlesData = [
@@ -70,11 +71,15 @@ const Articles = () => {
      
           
           <div className="flex-shrink-0 w-full sm:w-1/3">
-            <img
+
+            <Image 
               src={article.imageUrl}
               alt={article.title}
+              width={100}
+              height={100}
               className="w-full object-cover"
             />
+
           </div>
 
       

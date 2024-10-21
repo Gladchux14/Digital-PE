@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 
@@ -5,9 +6,11 @@ export default function NotFound() {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center text-center bg-[#E1F2FD] p-10 rounded-lg">
      
-      <img
+      <Image
                 src="not-found.png"
                 alt="vpn-guide-img"
+                height={64}
+                width={230}
                 className="flex items-center h-64 justify-center py-4"
               />
       <h1 className="text-3xl text-[#1C1D32] font-bold">Not Found</h1>

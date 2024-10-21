@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { useState } from 'react';
 
 const Hero = () => {
@@ -52,9 +53,11 @@ const Hero = () => {
           style={{ letterSpacing: "3.84px", lineHeight: "62px" }}
         >
           Control Your{' '}
-          <img
+          <Image
             src="/data.png"
             alt="data svg"
+            width={180}
+            height={180}
             className="inline-block align-middle " 
             style={{ verticalAlign: 'middle' }}
           />{' '}
@@ -74,9 +77,11 @@ const Hero = () => {
     value={searchQuery}
     onChange={handleSearchChange}
   />
-  <img
+  <Image
     src="/search-normal.svg"
     alt="search icon"
+    width={4}
+    height={4}
     className="w-4 h-4 absolute right-3 top-1/2 transform -translate-y-1/2"
   />
 

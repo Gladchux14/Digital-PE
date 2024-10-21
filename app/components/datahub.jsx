@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const DataHub = () => {
     return (
       <section
@@ -13,14 +15,14 @@ const DataHub = () => {
          
           <div className="bg-[#1C1D32] border border-[#9c9c9c] text-white  rounded-md p-6 transform transition-transform duration-300 hover:scale-105 max-w-xs mx-auto">
             <h3 className="text-2xl font-semibold mb-4 flex items-center justify-center">
-              <img src="/privacy-lock.png" alt="lock-icon" /> Your Data
+              <Image src="/privacy-lock.png" alt="lock-icon" width={50} height={50}/> Your Data
             </h3>
             <p className="text-[#9c9c9c]">Learn how to protect your data and comply with NLPD.</p>
           </div>
   
           <div className="bg-[#1C1D32] text-white border border-[#9c9c9c] rounded-md p-6 transform transition-transform duration-300 hover:scale-105 max-w-xs mx-auto">
             <h3 className="text-2xl font-semibold mb-4 flex items-center justify-center">
-              <img src="/privacy-earth.png" alt="earth-icon"/> Your Network
+              <Image src="/privacy-earth.png" alt="earth-icon" width={50} height={50}/> Your Network
             </h3>
             <p className="text-[#9c9c9c]">Protected so you can surf the web more safely</p>
           </div>

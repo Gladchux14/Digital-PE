@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 const Videos = () => {
@@ -64,9 +65,10 @@ const Videos = () => {
       >
    
         <div className="w-full overflow-hidden rounded-t-md">
-          <img
+          <Image
             src={card.image}
             alt={card.title}
+            width={150} height={150}
             className="w-full pb-4 h-48 object-cover" 
           />
         </div>

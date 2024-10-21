@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { IoMenu, IoClose } from 'react-icons/io5';
+import Image from 'next/image';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,7 +17,7 @@ const Header = () => {
       
         <div className="text-2xl font-bold">
           <Link href="/">
-           <img src="/DPE-logo.png" alt="Logo" />
+           <Image src="/DPE-logo.png" alt="Logo" width={100} height={100} />
           </Link>
         </div>
 

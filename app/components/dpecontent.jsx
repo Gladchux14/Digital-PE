@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 const DPEContent = () => {
@@ -27,9 +28,10 @@ const DPEContent = () => {
           key={index}
           className="bg-white text-[#1C1D32] rounded-md shadow-md pb-6 transition-transform transform duration-75 hover:scale-105"
         >
-          <img
+          <Image 
             src={card.image}
             alt={card.title}
+            width={100} height={48}
             className="w-full h-48 object-cover mb-5 rounded-t-md" 
           />
           <p className="text-[#1C1D32] text-[16px] font-bold md:text-[14px] lg:text-[16px] pb-3 px-3">{card.description}</p>

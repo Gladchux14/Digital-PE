@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { FaCopyright } from 'react-icons/fa';
 
@@ -8,7 +9,7 @@ const Footer = () => {
        
         <div className="w-full md:w-auto text-center md:text-left mb-4 md:mb-0">
           <Link href="/">
-            <img src="/DPE-logo.png" alt="Logo" className="mx-auto md:mx-0 w-32 md:w-40" />
+            <Image src="/DPE-logo.png" alt="Logo" width={80} height={80} className="mx-auto md:mx-0 w-32 md:w-40" />
           </Link>
         </div>
 

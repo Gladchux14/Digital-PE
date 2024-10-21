@@ -1,4 +1,5 @@
 
+import Image from "next/image";
 import  FaSocial  from "/app/components/fasocial.jsx";
 
 
@@ -9,7 +10,7 @@ const GuideVpn = () => {
     <div className="bg-[#E1F2FD] py-8">
       <div className="max-w-5xl mx-auto py-8 px-4 ">
       <Link href="/tutorial" className="flex mb-6 gap-2">
-              <img src="/back.svg" href="back icon" />
+              <Image src="/back.svg" href="back icon" alt="back icon" width={20} height={20} />
           <p className="hover:underline hover:text-[#2196F3]  ">
             Return to Contents
           </p>
