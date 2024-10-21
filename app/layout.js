@@ -2,7 +2,7 @@ import { Roboto_Mono } from 'next/font/google';
 import './globals.css';
 import Header from './components/header';
 import Footer from './components/footer';
-// import favicon from "../public/";
+
 
 
 const robotoMono = Roboto_Mono({
@@ -13,9 +13,9 @@ const robotoMono = Roboto_Mono({
 
 export const metadata = {
   title: 'DPE',
-  description: 'Digital Privacy Education ',
+  description: 'Digital Privacy Education - information on how to be secured online',
   icons: {
-    icon: "./favicon.svg",
+    icon: "/favicon.svg",
   },
 };
 

@@ -1,6 +1,4 @@
-
-
-DIGITAL PRIVACY EDUCATION
+DIGITAL PRIVACY EDUCATION (DPE)
 
 Digital Privacy Education is an open-source project focused on providing enlightenment and information on the best practices for staying secure online. The project is built using Next.js and Tailwind CSS, with a primary goal of promoting digital privacy. The project consists of multiple phases, with the second phase introducing a community forum where users and experts can discuss and share insights about online security.
 
@@ -25,7 +23,7 @@ To get started with this project, you need to have pnpm installed on your local 
 Once pnpm is installed, follow these steps:
 
 1) Clone the repository:
-- git clone https://github.com/your-username/digital-privacy-education.git
+- git clone https://github.com/Gladchux14/Digital-PE.git
 
 2) Navigate to the project directory:
 - cd digital-privacy-education

@@ -67,7 +67,7 @@ const Articles = () => {
           key={index}
           className="border flex flex-col sm:flex-row rounded-lg gap-4 md:gap-6 lg:gap-3 overflow-hidden p-4 hover:shadow-lg transition-shadow space-y-4 lg:space-y-0"
         >
-          {/* Image */}
+     
           
           <div className="flex-shrink-0 w-full sm:w-1/3">
             <img
@@ -77,13 +77,13 @@ const Articles = () => {
             />
           </div>
 
-          {/* Title and Description Div */}
+      
           <div className="flex flex-col items-start justify-center space-y-2 ml-0 sm:ml-4">
             <h2 className="text-lg sm:text-2xl md:text-3xl lg:text-3xl max-w-md font-semibold text-start mb-2 sm:mb-4 lg:mb-[26px]">
               {article.title}
             </h2>
 
-            {/* Description and Link Div */}
+           
             <div className="flex flex-col sm:flex-row md:flex-row items-start sm:items-center gap-4 sm:gap-36">
               <p className="text-md lg:text-xl max-w-md">{article.description}</p>
 
