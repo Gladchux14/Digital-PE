@@ -16,7 +16,7 @@ const Footer = () => {
     
         <div className="w-full md:w-auto text-center md:text-left">
           <p className="flex justify-center md:justify-start items-center text-sm mb-4 md:mb-0">
-            <FaCopyright className="mr-1" /> {new Date().getFullYear()} Digital Privacy Education Platform. All rights reserved.
+            <FaCopyright className=" mr-1" /> {new Date().getFullYear()} Digital Privacy Education Platform. All rights reserved.
           </p>
        
           {/* <div className="flex flex-col md:flex-row justify-center md:justify-start items-center text-sm space-y-2 md:space-y-0 md:space-x-6">

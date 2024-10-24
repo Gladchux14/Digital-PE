@@ -1,8 +1,9 @@
 "use client"
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { IoMenu, IoClose } from 'react-icons/io5';
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,6 +11,19 @@ const Header = () => {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+
+ 
+  const [activePath, setActivePath] = useState('');
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      // Set the active path based on the window's location
+      setActivePath(window.location.pathname);
+    }
+  }, []);
+  
+    const isActive = (path) => activePath === path;
+
 
   return (
     <header className="bg-[#171939] text-white">
@@ -30,30 +44,31 @@ const Header = () => {
 
      
         <nav className="hidden md:flex space-x-6 mr-32">
-          <ul className="flex space-x-6">
-            <li>
-              <Link href="/">
-                <p className="hover:text-[#2196F3] ">Home</p>
-              </Link>
-            </li>
-            <li>
-              <Link href="/tutorial">
-                <p className="hover:text-[#2196F3]">Tutorials</p>
-              </Link>
-            </li>
-            <li>
-              <Link href="/resources">
-                <p className="hover:text-[#2196F3]">Resources</p>
-              </Link>
-            </li>
-            <li>
-              <Link href="/community">
-                <p className="hover:text-[#2196F3]">Community Forum</p>
-              </Link>
-            </li>
-          </ul>
-        </nav>
+      <ul className="flex space-x-6">
+        <li>
+          <Link href="/">
+            <p className={`hover:text-[#2196F3] ${isActive('/') ? 'text-[#2196F3]' : ''}`}>Home</p>
+          </Link>
+        </li>
+        <li>
+          <Link href="/tutorial">
+            <p className={`hover:text-[#2196F3] ${isActive('/tutorial') ? 'text-[#2196F3]' : ''}`}>Tutorials</p>
+          </Link>
+        </li>
+        <li>
+          <Link href="/resources">
+            <p className={`hover:text-[#2196F3] ${isActive('/resources') ? 'text-[#2196F3]' : ''}`}>Resources</p>
+          </Link>
+        </li>
+        <li>
+          <Link href="/community">
+            <p className={`hover:text-[#2196F3] ${isActive('/community') ? 'text-[#2196F3]' : ''}`}>Community Forum</p>
+          </Link>
+        </li>
+      </ul>
+    </nav>
       </div>
+      
 
       {/* Mobile Navigation Menu */}
       <div

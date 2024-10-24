@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa";
 
 const articlesData = [
@@ -25,7 +26,13 @@ const articlesData = [
 
 const LandingArticle = () => {
   return (
-    <div className=" sm:px-6 md:px-8 max-w-6xl bg-[#E1F2FD] m-auto px-4 ">
+   <div className=" sm:px-6 md:px-8 max-w-6xl bg-[#E1F2FD] m-auto px-4 ">
+      <div className=" m-auto  flex items-center justify-between">
+<p className=" font-bold text-xl">Articles</p>
+         <Link href="/resources" className="text-[#1C1D32] underline mt-5  flex items-end justify-end">
+         <p>View All</p>
+         </Link>
+      </div>
       {articlesData.slice(0, 3).map((article, index) => ( 
         <div
           key={index}

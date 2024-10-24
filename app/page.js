@@ -8,13 +8,33 @@ import LandingpageTools from "./components/landingTool"
 import LandingVideos from "./components/landingvideo"
 import LandingArticle from "./components/landingarticle"
 
-
+import { useEffect, useState } from 'react';
 
 export default function Home() {
+
+  const [toolsData, setToolsData] = useState([]);
+  const [videosData, setVideosData] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('/data.json'); // Fetching from the public directory
+        const data = await response.json();
+        
+        setToolsData(data.tools);
+        setVideosData(data.videos);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
   return (
     <div className="bg-[#E1F2FD]">
     
-     <Hero />
+     <Hero toolsData={toolsData} videosData={videosData} />
      <DataHub/>
       <section className="bg-[#E1F2FD] p-6">
       <div className="text-[#1C1D32]" >
