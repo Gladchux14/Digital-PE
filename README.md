@@ -87,6 +87,12 @@ We welcome contributions to improve the project. If you want to contribute and c
 4) Open a Pull Request for review.
 Note: Any new tools or dependencies should be approved by the repository handlers before they are added.
 
+## Contributors
+
+https://github.com/anafisad/anafisad.png
+https://github.com/Fahtymah/Fahtymah.png
+https://github.com/sommie11.png
+
 License
 This project is licensed under the MIT License.
 
