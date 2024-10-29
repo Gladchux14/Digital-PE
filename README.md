@@ -89,9 +89,9 @@ Note: Any new tools or dependencies should be approved by the repository handler
 
 ## Contributors
 
-https://github.com/anafisad/anafisad.png
-https://github.com/Fahtymah/Fahtymah.png
-https://github.com/sommie11.png
+https://github.com/anafisad/anafisad
+https://github.com/Fahtymah/Fahtymah
+https://github.com/sommie11
 
 License
 This project is licensed under the MIT License.
